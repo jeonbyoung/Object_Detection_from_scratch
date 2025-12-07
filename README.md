@@ -1,3 +1,4 @@
+````markdown
 # 👁️ Object Detection From Scratch: 2-Month Challenge
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat)
@@ -20,41 +21,6 @@
 
 ## 📂 Repository Structure (Planned)
 
-```bash
-📦 Object-Detection-Study
- ├── 📂 01_Traditional_CV       # Convolution 손계산 및 Edge Detection (OpenCV)
- ├── 📂 02_Deep_Learning_Basic  # CNN 기초 구조 및 MNIST 분류기
- ├── 📂 03_Core_Implementation  # [Core] NMS, IoU 알고리즘 C++ 밑바닥 구현
- ├── 📂 04_YOLO_Experiments     # YOLO 모델 구조 분석 및 Custom Training
- └── 📂 05_Deployment           # CoreML 변환 및 모바일 경량화 테스트
- └📜 README.md
-
-
----
-
-## 🚀 Learning Roadmap & Key Features
-
-이 프로젝트에서 구현할 핵심 기능들입니다. 학습이 진행됨에 따라 코드가 채워질 예정입니다.
-
-### 1. Non-Maximum Suppression (NMS) in C++
-Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로 직접 구현하여 최적화합니다.
-- **Goal:** STL 컨테이너를 활용한 메모리 최적화 구현
-- **Status:** `[Waiting for Week 5]`
-- **Code:** *(Coming Soon)*
-
-### 2. Intersection over Union (IoU) Logic
-두 Bounding Box의 겹치는 영역을 계산하는 기하학적 로직을 구현합니다.
-- **Status:** `[Waiting for Week 5]`
-
-### 3. Edge Detection (Traditional CV)
-딥러닝 이전, 필터(Kernel) 연산을 통해 물체의 윤곽선을 검출하는 원리를 실습합니다.
-- **Status:** `[Waiting for Week 1]`
-
----
-
-````markdown
-## 📂 Repository Structure (Planned)
-
 이 레포지토리는 학습 단계별로 폴더가 구분되어 있습니다.
 
 ```bash
@@ -64,6 +30,33 @@ Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로
  ├── 📂 03_Core_Implementation  # [W5] C++ 핵심 알고리즘 구현 (NMS, IoU)
  ├── 📂 04_YOLO_Experiments     # [W6] YOLO 모델 구조 분석 및 실습
  └── 📜 README.md
+````
+
+-----
+
+## 🚀 Learning Roadmap & Key Features
+
+이 프로젝트에서 구현할 핵심 기능들입니다. 학습이 진행됨에 따라 코드가 채워질 예정입니다.
+
+### 1\. Non-Maximum Suppression (NMS) in C++
+
+Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로 직접 구현하여 최적화합니다.
+
+  - **Goal:** STL 컨테이너를 활용한 메모리 최적화 구현
+  - **Status:** `[Waiting for Week 5]`
+  - **Code:** *(Coming Soon)*
+
+### 2\. Intersection over Union (IoU) Logic
+
+두 Bounding Box의 겹치는 영역을 계산하는 기하학적 로직을 구현합니다.
+
+  - **Status:** `[Waiting for Week 5]`
+
+### 3\. Edge Detection (Traditional CV)
+
+딥러닝 이전, 필터(Kernel) 연산을 통해 물체의 윤곽선을 검출하는 원리를 실습합니다.
+
+  - **Status:** `[Waiting for Week 1]`
 
 -----
 
@@ -80,9 +73,14 @@ Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로
 | **W7** | Deployment | CoreML 변환, Quantization 테스트 | ⬜️ |
 | **W8** | Wrap-up | 전체 파이프라인 정리, 포트폴리오 완성 | ⬜️ |
 
-
----
+-----
 
 ## 🔗 Study References
-- **Paper:** [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
-- **Course:** CS231n: Deep Learning for Computer Vision
+
+  - **Paper:** [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+  - **Course:** CS231n: Deep Learning for Computer Vision
+
+<!-- end list -->
+
+```
+```
