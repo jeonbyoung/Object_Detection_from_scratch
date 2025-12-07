@@ -52,6 +52,21 @@ Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로
 
 ---
 
+````markdown
+## 📂 Repository Structure (Planned)
+
+이 레포지토리는 학습 단계별로 폴더가 구분되어 있습니다.
+
+```bash
+📦 Object-Detection-Study
+ ├── 📂 01_Traditional_CV       # [W1] 고전 컴퓨터 비전 (Convolution, Edge Detection)
+ ├── 📂 02_Deep_Learning_Basic  # [W2] CNN 기초 구조 및 MNIST 분류기
+ ├── 📂 03_Core_Implementation  # [W5] C++ 핵심 알고리즘 구현 (NMS, IoU)
+ ├── 📂 04_YOLO_Experiments     # [W6] YOLO 모델 구조 분석 및 실습
+ └── 📜 README.md
+
+-----
+
 ## 📝 Weekly Progress Log
 
 | Week | Topic | Key Activities | Status |
@@ -64,6 +79,7 @@ Object Detection 후처리 과정의 병목이 되는 NMS 알고리즘을 C++로
 | **W6** | Modern YOLO | YOLO v8 실습, Webcam Inference | ⬜️ |
 | **W7** | Deployment | CoreML 변환, Quantization 테스트 | ⬜️ |
 | **W8** | Wrap-up | 전체 파이프라인 정리, 포트폴리오 완성 | ⬜️ |
+
 
 ---
 
