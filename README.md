@@ -24,17 +24,13 @@
 
 ## 📂 Repository Structure
 
-```
-
+```bash
 📦 Object-Detection-Study
-┣ 📂 01\_Traditional\_CV       \# 고전 컴퓨터 비전 (Convolution 손계산, Edge Detection)
-┣ 📂 02\_Deep\_Learning\_Basic  \# CNN 기초 구조 및 MNIST 분류기 실습
-┣ 📂 03\_Core\_Implementation  \# [핵심] C++로 구현한 NMS, IoU 알고리즘
-┣ 📂 04\_YOLO\_Experiments     \# YOLO 모델 구조 분석 및 실습
-┣ 📂 05\_Deployment           \# CoreML 변환 및 경량화 테스트
-┗ 📜 README.md
-
-````
+ ├── 📂 01_Traditional_CV       # Convolution 손계산 및 Edge Detection (OpenCV)
+ ├── 📂 02_Deep_Learning_Basic  # CNN 기초 구조 및 MNIST 분류기
+ ├── 📂 03_Core_Implementation  # [Core] NMS, IoU 알고리즘 C++ 밑바닥 구현
+ ├── 📂 04_YOLO_Experiments     # YOLO 모델 구조 분석 및 Custom Training
+ └── 📂 05_Deployment           # CoreML 변환 및 모바일 경량화 테스트
 
 ---
 
