@@ -17,8 +17,6 @@
 - **Libraries:** PyTorch, OpenCV, NumPy
 - **Deployment:** CoreML (iOS), ONNX
 
----
-
 ## 📂 Repository Structure (Planned)
 
 이 레포지토리는 학습 단계별로 폴더가 구분되어 있습니다.
@@ -30,9 +28,6 @@
  ├── 📂 03_Core_Implementation  # [W5] C++ 핵심 알고리즘 구현 (NMS, IoU)
  ├── 📂 04_YOLO_Experiments     # [W6] YOLO 모델 구조 분석 및 실습
  └── 📜 README.md
-````
-
------
 
 ## 🚀 Learning Roadmap & Key Features
 
